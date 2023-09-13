@@ -353,8 +353,8 @@ background-color: #c19864;
     /* ========== MENU-BAR =========== */
 
 
-    .toggle{
-       background-color: #fff;
+    .Toggle{
+       background-color: #ffffff;
        height: 39px;
        margin: 2px 0px;
        width: 6.9%;
@@ -365,7 +365,7 @@ background-color: #c19864;
        border-radius: 3px;
        transition: .9s;
     }
-    .toggle:hover{
+    .Toggle:hover{
         border-bottom: none!important;
         margin: 0;
         padding: 0;
