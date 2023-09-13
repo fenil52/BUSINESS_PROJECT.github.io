@@ -1,0 +1,901 @@
+/* ==========   HEADER AND NAVBAR  ==========  */
+
+/* ================ MOBILE SCREEN [400PX] ===================== */
+
+@media screen and (max-width: 400px) {
+
+  /* ===================== HEADER ==================== */
+
+  html {
+    overflow-x: hidden;
+  }
+  #first-text {
+    width: 100% !important;
+    padding: 5px !important;
+  }
+  .header {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column;
+    overflow-x: hidden !important;
+  }
+  .first-p {
+    width: inherit !important;
+    padding: 10px 0px !important;
+    font-size: 14px !important;
+  }
+  .location {
+    height: 21px !important;
+  }
+  .mail {
+    height: 17px !important;
+  }
+  .second-p {
+    width: inherit !important;
+    font-size: 14px !important;
+    margin: 0 auto !important;
+  }
+  .third-pp {
+    width: initial !important;
+    padding-top: 7px !important;
+    margin: 0 auto !important;
+  }
+  .third-p {
+    font-size: 15px !important;
+  }
+  #header img {
+    padding-right: 5px !important;
+  }
+
+  #business a {
+    margin: 0 !important;
+    padding: 0px !important;
+  }
+  #business {
+    display: flex;
+    justify-content: start !important;
+    padding: 0px !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    width: inherit !important;
+  }
+
+  /* ===================== HOME SECTION ==================== */
+
+  html {
+    overflow-x: hidden;
+  }
+  #home {
+    background-size: 100vh !important;
+    height: 42vh !important;
+  }
+  #home-text {
+    top: 25% !important;
+    right: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .text-1 {
+    font-size: 15px !important;
+    padding: 5px 0px!important;
+  }
+  .text-2 {
+    font-size: 13px !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    padding: 10px 0px;
+  }
+  .text-3 {
+    padding: 2px !important;
+    font-size: 14px !important;
+  }
+  #button {
+    width: auto!important;
+    display: flex !important;
+    justify-content: center!important;
+    margin: 0 auto!important;
+    padding: 7px 0px;
+  }
+  #contact-btn{
+    margin: 0px!important;
+  }
+
+  /* ===================== LIST ====================*/
+
+  #list {
+    display: flex;
+    flex-direction: column !important;
+    z-index: 1 !important;
+    margin: -1000px 0px 0px 0px !important;
+    transition: 0.8s ease-in-out all;
+    padding: 0% !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #list li {
+    padding: 5px;
+    width: 255% !important;
+    margin: 0 !important;
+    background-color: #5d5d5d;
+    margin-left: -167% !important;
+  }
+  #list a {
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  .list {
+    transform: translateY(1042px);
+  }
+
+  /*================== TOGGLE-MENU ===================*/
+
+  #toggle-id {
+    margin: 0 !important;
+    height: 34px;
+    width: inherit;
+    padding: 10px 5px;
+    float: right;
+  }
+  .bar1 {
+    transform: translateY(5px);
+    height: 5px;
+  }
+  .bar3 {
+    height: 5px;
+  }
+  .bar2 {
+    height: 6px;
+    transform: translateY(-9px);
+  }
+
+  /* ===================== FIRST SECTION ==================== */
+  
+  #first-sec{
+    padding-bottom: 29px!important;
+  }
+
+  /* ===================== SECOND SECTION ==================== */
+
+  .page{
+    padding:18px 0px!important;
+    border: 1px solid black;
+    margin: 0px auto!important;
+  }
+  #pages{
+    gap: 20px!important;
+  }
+
+  /* ===================== THIRD SECTION [ counter section ] ====================== */
+
+  #news{
+    background-size: cover;
+  }
+  #sec-3-row{
+    margin: 0 auto!important;
+    width: auto!important; 
+    padding:0px! important;  
+  }
+  #sec-3-row .counter-p{
+     font-size: 1rem! important;
+     padding:10px 0px!important;
+
+  }
+  .counter{
+    font-size:1.5rem!important;
+    padding:15px 0px!important;
+
+  }
+
+  /* ===================== FOURTH SECTION ==================== */
+
+  .cardbox {
+    padding: 0px! important;
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center!important;
+    text-align: center;
+  }
+  .cardbox p{
+    text-align: center!important;
+  }
+  .img-3 img{
+    width: 40vh! important;
+    margin: 0 auto! important;
+  }
+  .cardbox article{
+    text-align: center;
+  }
+  .sec-span-4{
+    font-weight: bold!important;
+  }
+  .sec-p-4{
+    width: 100%!important;
+  }
+
+  /* ===================== BEFORE FOOTER SECTION ==================== */
+
+   #sec-p{
+    padding: 0px!important;
+    font-size: 18px!important;
+    margin:0px!important;
+    height: inherit!important;
+    padding: 19px!important;
+   }
+   .img-group-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .name-5{
+    margin: 0px !important;
+   }
+   .sec-img-5{
+   text-align: center;
+    padding: 0px!important;
+   }
+   #flex{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto!important;
+    padding: 20px!important;
+    height: auto!important;
+    border-bottom: 2px solid black;
+   }
+  
+  /* ===================== FOOTER SECTION ==================== */
+   
+  #footer{
+    background-size: cover;
+  }
+  #footer-1{
+    padding: 0px!important;
+  }
+  .icons{
+    font-size: 4px!important;
+  }
+  #group{
+    padding: 1px!important;
+    display: flex!important;
+  }
+  #placeholder{
+   width: 60%!important;
+  }
+  #button-4{
+    padding: 3px!important;
+    width: 32%!important;
+    font-size: 14px!important;
+  }
+  .hr-f{
+    width: 75%!important;
+  }
+
+  #footer-2{
+    padding: 0px!important;
+    margin-top: 10%!important;
+    flex-wrap: wrap!important;
+  }
+  #grid-img{
+    padding: 0px!important;
+    margin-top: 15%!important;
+    padding-bottom: 10%!important;
+  }
+}
+
+/* =================== END ===================== */
+
+/* ================ TAB SCREEN [UPT0-770PX]===================== */
+
+@media only screen and (min-width: 400px) and (max-width: 770px) {
+
+   
+  /* ==================== HEADER ====================== */
+
+  html {
+    overflow-x: hidden;
+  }
+  #first-text {
+    width: 100% !important;
+    padding: 5px !important;
+  }
+  .header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    overflow-x: hidden !important;
+  }
+  .first-p {
+    width: inherit !important;
+    padding: 10px 0px !important;
+    font-size: 14px !important;
+  }
+  .location {
+    height: 21px !important;
+  }
+  .mail {
+    height: 17px !important;
+  }
+  .second-p {
+    width: inherit !important;
+    font-size: 15px !important;
+    margin: 0 auto !important;
+  }
+  .third-pp {
+    width: initial !important;
+    margin: 0 auto !important;
+    padding-top: 7px !important;
+  }
+  .third-p {
+    font-size: 15px !important;
+  }
+  #header img {
+    padding-right: 5px !important;
+  }
+
+  /* ===================== HOME SECTION ==================== */
+
+  #home {
+   height: 49vh !important;
+   background-size: 110vh!important;
+ }
+ #home-text {
+   top: 35% !important;
+   right: 0 !important;
+   left: 0 !important;
+   justify-content: center !important;
+   display: flex !important;
+   flex-direction: column !important;
+ }
+ .text-1 {
+   font-size: 1rem!important;
+   margin: 0px!important;
+ }
+ .text-2 {
+   font-size: 1.3rem!important;
+   width: 100% !important;
+   text-align: center !important;
+   margin: 0 auto !important;
+    padding-bottom: 12px;
+    padding-top: 7px;
+   font-weight: 300!important;
+   
+ }
+ .text-3 {
+   padding: 5px !important;
+   font-size: 15px !important;
+ }
+ #button {
+   display: flex !important;
+   justify-content: center!important;
+   width: auto!important;
+   margin: 0 auto !important;
+   padding: 0px!important;
+ }
+ #contact-btn{
+   margin: 0!important;
+ }
+
+  /* ===================== LIST ====================*/
+
+  #list {
+    display: flex !important;
+    flex-direction: column !important;
+    z-index: 1 !important;
+    margin: -1000px 0px 0px 0px !important;
+    transition: 0.8s ease-in-out all;
+    padding: 0% !important;
+  }
+  #list li {
+    padding: 6px;
+    width: 350% !important;
+    margin: 0 !important;
+    background-color: #5d5d5d;
+    margin-left: -193% !important;
+  }
+  #list a {
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  .list {
+    transform: translateY(1049px);
+  }
+
+  /*================== TOGGLE-MENU ===================*/
+
+  #toggle-id {
+    height: 34px;
+    width: auto !important;
+    padding: 10px 5px;
+    float: right;
+  }
+  .bar1 {
+    transform: translateY(5px);
+    height: 5px;
+  }
+  .bar3 {
+    height: 5px;
+  }
+  .bar2 {
+    height: 6px;
+    transform: translateY(-9px);
+  }
+  #toggle-list {
+    margin-left: auto !important ;
+    margin-right: 10px !important;
+  }
+
+  /* ===================== FIRST SECTION ==================== */
+  
+  #first-sec{
+    padding-bottom: 29px!important;
+  }
+
+  /* ===================== SECOND SECTION ==================== */
+
+  .page{
+    padding:18px 0px!important;
+    border: 1px solid black;
+    margin: 0px auto!important;
+  }
+  #pages{
+    gap: 20px!important;
+  }
+
+  /* ===================== THIRD SECTION [ counter section ] ====================== */
+
+  #news{
+    background-size: cover;
+  }
+  #sec-3-row{
+    margin: 0 auto!important;
+    width: auto!important; 
+    padding:0px! important;  
+  }
+  #sec-3-row .counter-p{
+     font-size: 1rem! important;
+     padding:10px 0px!important;
+
+  }
+  .counter{
+    font-size:1.5rem!important;
+    padding:15px 0px!important;
+
+  }
+
+  /* ===================== FOURTH SECTION ==================== */
+
+  .cardbox {
+    padding: 0px! important;
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center!important;
+    text-align: center;
+  }
+  .cardbox p{
+    text-align: center!important;
+  }
+  .img-3 img{
+    width: 40vh! important;
+    margin: 0 auto! important;
+  }
+  .cardbox article{
+    text-align: center;
+  }
+  .sec-span-4{
+    font-weight: bold!important;
+  }
+  .sec-p-4{
+    width: 100%!important;
+  }
+
+  /* ===================== BEFORE FOOTER SECTION ==================== */
+
+   #sec-p{
+    padding: 0px!important;
+    font-size: 18px!important;
+    margin:0px!important;
+    height: inherit!important;
+    padding: 19px!important;
+   }
+   .img-group-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .name-5{
+    margin: 0px !important;
+   }
+   .sec-img-5{
+   text-align: center;
+    padding: 0px!important;
+   }
+   #flex{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto!important;
+    padding: 20px!important;
+    height: auto!important;
+    border-bottom: 2px solid black;
+   }
+  
+  /* ===================== FOOTER SECTION ==================== */
+   
+  #footer{
+    background-size: cover;
+  }
+  #footer-1{
+    padding: 0px!important;
+  }
+  .icons{
+    font-size: 4px!important;
+  }
+  #group{
+    padding: 1px!important;
+    display: flex!important;
+  }
+  #placeholder{
+   width: 60%!important;
+  }
+  #button-4{
+    padding: 3px!important;
+    width: 32%!important;
+    font-size: 14px!important;
+  }
+  .hr-f{
+    width: 75%!important;
+  }
+
+  #footer-2{
+    padding: 0px!important;
+    margin-top: 10%!important;
+    flex-wrap: wrap!important;
+    display: flex!important; 
+    justify-content: center!important;
+    align-items: center!important;
+  }
+  .sec-p-col2{
+    margin: 0px auto!important; 
+    text-align: center;
+    width: 100%!important;
+  }
+  #grid-img{
+    padding: 0px!important;
+    margin-top: 15%!important;
+    padding-bottom: 10%!important;
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center!important;
+    align-items: center!important;
+  }
+}
+
+/* =================== END ===================== */
+
+/* ================ WINDOW SCREEN [UPT0-1000PX]===================== */
+
+@media only screen and (min-width: 770px) and (max-width: 1050px) {
+
+/* ==================== HEADER ====================== */
+
+  html {
+    overflow-x: hidden;
+  }
+  .header {
+    display: flex !important;
+    width: 100% !important;
+  }
+  #first-text {
+    width: 180% !important;
+  }
+  .first-p {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .second-p {
+    width: 70% !important;
+  }
+  .third-pp {
+    width: 69% !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 5px;
+  }
+  .third-p {
+    margin-bottom: 0px !important;
+  }
+
+  /* ===================== HOME SECTION ==================== */
+
+   #home {
+    height: 65vh!important;
+    background-size: 200vh!important;
+  }
+  #home-text {
+    top: 32% !important;
+    right: 0 !important;
+    left: 0 !important;
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .text-1 {
+    font-size: 1.5rem!important;
+    margin: 0px!important;
+    padding:10px;
+    font-weight:lighter;
+    font-style: italic;
+  }
+  .text-2 {
+    font-size: 1.5rem!important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+     padding-bottom: 23px;
+     padding-top: 7px;
+    font-weight:lighter !important;
+    
+  }
+  .text-3 {
+    padding: 8px !important;
+    font-size: 15px !important;
+  }
+  #button {
+    display: flex !important;
+    justify-content: center!important;
+    width: auto!important;
+    margin: 0 auto !important;
+    padding: 0px!important;
+  }
+  #contact-btn{
+    margin: 0!important;
+  }
+
+  /* ===================== LIST ====================*/
+
+  #toggle-list {
+    width: 52% !important;
+    align-items: center;
+  }
+  #toggle-list ul {
+    justify-content: space-around !important;
+    margin: 0;
+  }
+  
+  /* ===================== TOGGLE-MENU ====================*/
+
+  #toggle-id {
+    display: none !important;
+  }
+
+
+  /* ===================== FOOTER SECTION ==================== */
+
+
+#footer-container{
+  padding: 0px!important;
+  width: 100%!important;
+}  
+#footer{
+  padding: 0px!important;
+  background-size: cover;
+  display: flex!important;
+  justify-content:space-between!important;
+  align-items: flex-end;
+  width: 100%!important;
+}
+#footer-1{
+  padding:50px!important;
+  margin: 0px!important;
+  width: 40%!important;
+}
+#footer-1  p{
+  font-size: 12px!important;
+}
+.icons{
+  font-size: 4px!important;
+}
+#group{
+  padding: 1px!important;
+  display: flex!important;
+}
+#placeholder{
+ width: 60%!important;
+}
+#button-4{
+  padding: 3px!important;
+  width: 32%!important;
+  font-size: 14px!important;
+}
+.hr-f{
+  width: 80%!important;
+}
+#footer-2{
+  margin: 0px auto!important;
+  padding: 0px!important;
+  width: 47%!important;
+  margin-left: 13%!important;
+  padding: 50px!important;
+
+}
+#footer-2 p{
+  font-size: 10px!important;
+}
+#footer-2 img{
+  width: inherit!important;
+}
+
+#grid-img{
+  width: 100%!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+}
+
+/* =================== END ===================== */
+
+
+
+/* ================ MAIN SCREEN [T0-1250PX]===================== */
+
+@media only screen and (min-width: 1050px) and (max-width:1270px){
+
+  /* ==================== HEADER ====================== */
+
+  html {
+    overflow-x: hidden;
+  }
+
+  #first-text {
+    width: 70% !important;
+  }
+  .first-p {
+    padding-right: 55px !important;
+  }
+  .third-pp {
+    margin: 0 !important;
+  }
+  .third-p {
+    margin-bottom: 0px !important;
+  }
+  #row {
+    align-items: center !important;
+  }
+
+ /* ===================== HOME SECTION ==================== */
+
+ #home {
+  height:85vh!important;
+  background-size: initial!important;
+}
+#home-text {
+  top: 32% !important;
+  right: 0 !important;
+  left: 0 !important;
+  justify-content: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.text-1 {
+  font-size: 1.5rem!important;
+  margin: 0px!important;
+  padding:10px;
+  font-weight:lighter;
+  font-style: italic;
+}
+.text-2 {
+  font-size: 1.5rem!important;
+  width: 100% !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+   padding-bottom: 23px;
+   padding-top: 7px;
+  font-weight:lighter !important;
+  
+}
+.text-3 {
+  padding: 8px !important;
+  font-size: 15px !important;
+}
+#button {
+  display: flex !important;
+  justify-content: center!important;
+  width: auto!important;
+  margin: 0 auto !important;
+  padding: 0px!important;
+}
+#contact-btn{
+  margin: 0!important;
+} 
+
+ /* ===================== LIST ====================*/
+
+ #toggle-list {
+  width: 52% !important;
+  align-items: center;
+}
+#toggle-list ul {
+  justify-content: space-around !important;
+  margin: 0;
+}
+
+  /* ===================== TOGGLE-MENU ====================*/
+
+  #toggle-id {
+    display: none !important;
+  }
+
+   /* ===================== FOOTER SECTION ==================== */
+
+
+#footer-container{
+  padding: 0px!important;
+  width: 100%!important;
+}  
+#footer{
+  padding: 0px!important;
+  background-size: cover;
+  display: flex!important;
+}
+#footer-1{
+  padding: 0px!important;
+  margin-top: 5%!important;
+}
+#footer-1 p{
+  font-size: 14px!important;
+}
+.hr-f{
+  width: 75%!important;
+}
+#placeholder{
+  width: 45%!important;
+  padding: 0px!important;
+}
+#button-4{
+  padding: 0px!important;
+  font-size: 15px;
+  width: 10%!important;
+}
+#group{
+  width: 70%!important;
+}
+#footer-2{
+padding: 15px!important;
+width: 29%!important;
+}
+#footer-2 p{
+  font-size: 10px!important;
+}
+#footer-2 img{
+  /* width: 90%; */
+  margin: 0px!important;
+}
+#img-group{
+  padding: 0px !important;
+  width: 20%!important;
+}
+}
+
+/* ================ MAIN SCREEN [T0-1250PX]===================== */
+
+@media screen and (min-width:1250px){
+/* ================ MAIN SCREEN [T0-1250PX]===================== */
+  
+#toggle-id {
+  display: none !important;
+}
+}
+
